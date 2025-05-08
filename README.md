@@ -13,8 +13,16 @@ Eventually, this project may be privated or a new repository just holding the ga
 ### Phase 1: Starting out with an easy to build game engine w/ a simple test game.
 
 - [ ] Planning a feature-complete software architecture of and between all of the different systems.
+    - See `software_architecture_whole.drawio.svg` for high level overview.
 
 - [ ] Writing a singlethreaded game engine, with a simple test game using it.
+    - [ ] Import all of the submodules wanted:
+        - cglm
+        - fastgltf
+        - glfw 3.4
+        - imgui
+        - JoltPhysics
+        - simdjson
 
 - [ ] Separating the game from the game engine (tech debt and evolution).
     @NOTE: This includes changing a lot of inputs from hardcoded commands to JSON files that build levels and assets.
